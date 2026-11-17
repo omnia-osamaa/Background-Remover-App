@@ -1,0 +1,43 @@
+name: bg_remover
+description: Background Remover App - Techwave Developers UI/UX task.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State management
+  flutter_bloc: ^8.1.6
+  equatable: ^2.0.5
+
+  # Architecture helpers
+  dartz: ^0.10.1
+  get_it: ^7.7.0
+
+  # Network
+  dio: ^5.4.3+1
+  connectivity_plus: ^6.0.3
+
+  # Navigation
+  go_router: ^14.2.0
+
+  # Storage
+  shared_preferences: ^2.2.3
+
+  # UI
+  google_fonts: ^6.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/icons/
